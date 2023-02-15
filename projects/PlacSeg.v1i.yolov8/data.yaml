@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Placozoan']
+
+roboflow:
+  workspace: starseg
+  project: placseg
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/starseg/placseg/dataset/1

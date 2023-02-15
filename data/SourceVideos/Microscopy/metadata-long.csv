@@ -1,0 +1,17 @@
+"File","Substrate (glass or algae)","Substance","Concentration","When added (#frame)","frames per minute","Observed behaviour"
+"20210525-norma-cAMP-0.1mM.avi","Clean glass","cAMP","1 mM",1700,30,"normal locomotion, spontaneous feeding-like cycles (frames 288-402, 624-832, 1168-1220, 1842-1960, 2526-2634, 3098-3120), folds and crumples (frames 1230-1602, 1960-2220)"
+"20210525-norma.avi","Clean glass","none",,,30,"Spontaneous feeding-like cycles (frames 675-737) animal, folds and crumples (frames 900-1050, 1304-2014)"
+"20210525-norma-cGMP-2-0.1mM.avi","Clean glass","cGMP","1 mM",1965,30,"Spontaneous feeding-like cycles (frames 558-880, 1191-1324, 1997-2076, 2757-2844), folds and crumples (frames 1-495)"
+"20210318-collisions-conditioned.avi","conditioned glass","none",,,30,
+"20210318-crawling-on-conditioned-glass-2.avi","conditioned glass","none",,,30,"animal folds and crumples at frames 1000-1325"
+"20210318-crawling-on-conditioned-glass.avi","conditioned glass","none",,,30,"normal locomotion, spontaneous feeding-like cycle (frames 345-460, 669-768, 2090-2180)"
+"20210224-norma-L-Glu-3mM-microscope.avi","Clean glass","L-glutamate","3 mM",1080,12,
+"20201123-feeding-green-algae-microscope-overnight.avi","green algae biofilm","none",,,30,"Normal feeding cycles on green algae (frames 970-1185, 2693-2946, 3054-3420, 3542-3957, 4080-4418, 4678-4982, 5156-5411, 5534-5757, 6696-6912, 7060-7275, 7490-7706), folds and crumples (frames 6273-6490)"
+"20201030-feeding-norma-glycine-0.1mM.avi","cyanobacterial biofilm","glycine","0.1 mM",1800,30,"normal feeding on cyanobacteria, frames 582-730, 860-1040, 1240-1425, 1731-1880, 2110-2370, 3160-3400"
+"2020-07-24-eating-norma-micro.avi","cyanobacterial biofilm","none",,,6,"normal feeding on cyanobacteria, frames 8-45, 55-80, 97-123, 138-165, 183-213, 237-257, 282-309, 339-366, 417-444, 474-507, 552-579, 606-639, 672-702, "
+"2020-07-24-eating-GABA-1mM-overnight-micro.avi","cyanobacterial biofilm","GABA","1 mM","added before video start",6,"Very short feeding-like cycles at frames 1-12, 184-192, and 351-359"
+"2020-07-14-D-Asp-0.3mM-microscope.avi","Clean glass","D-aspartate","0.3 mM",215,6,"normal locomotion, D-Asp-induced feeding-like cycles (frames 234-252, 282-300, 310-332, 350-380, 396-424, 447-475, 507-531, 613-630)"
+"2020-07-14-D-Glu-1mM-microscope.avi","Clean glass","D-glutamate","1 mM",211,6,"normal locomotion, spontaneous feeding-like cycle (frames 1-11, 40-48, 65-75, 108-114, 155-162, 216-222), D-Glu-induced feeding-like cycles (frames 312-324, 380-384)"
+"2020-07-14-L-Asp-1mM-microscope.avi","Clean glass","L-aspartate","1 mM",201,6,"normal locomotion, spontaneous feeding-like cycle (frames 42-60), L-Asp-induced feeding-like cycles (frames 480-522, 552-588, 624-675, 710-768, 1300-1322)"
+"2020-07-13-D-Asp-1mM-microscope.avi","Clean glass","D-aspartate","1 mM",214,6,"normal locomotion, spontaneous feeding-like cycle (frames 336-378), L-Asp-induced feeding-like cycles (frames 480-522, 552-588, 624-675, 710-768, 1300-1322)"
+"2020-07-13-GABA-1mM-microscope.avi","Clean glass","GABA","1 mM",284,6,"normal locomotion, spontaneous feeding-like cycle (frames 45-62, 690-702,)"

@@ -1,0 +1,49 @@
+
+#%%
+
+import os
+import glob
+import numpy as np
+import cv2
+from tqdm import tqdm
+
+#%%
+
+video_dir = r'D:\Placozoa\data\PlacSeg\LowCA_NoMg'
+videos = glob.glob(os.path.join(video_dir, '*.MOV'))
+
+## convert videos to mp4
+pbar = tqdm(total=len(videos), position=0, leave=True)
+for video in videos:
+    cap = cv2.VideoCapture(video)
+    video_name = os.path.basename(video).split('.')[0] + '.mp4'
+    video_path = os.path.join(video_dir, video_name)
+
+    l = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    fps = int(cap.get(cv2.CAP_PROP_FPS))
+    w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    dim = (w,h)
+
+    # Define the codec and create VideoWriter object
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    out = cv2.VideoWriter(video_path, 
+                        fourcc,
+                        fps, 
+                        dim)
+    vbar = tqdm(total=l, position=1, leave=False)
+    for i in range(0, l):
+        success, img = cap.read()
+        if success != True:
+            print(f'{i}, failed to read {video}')
+        else:
+            out.write(img)
+        vbar.update(n=1)
+    vbar.close()
+
+    out.release()
+    cap.release()
+    pbar.update(n=1)
+pbar.close()
+#%%
+
